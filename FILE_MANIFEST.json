@@ -1,0 +1,458 @@
+{
+  "version": "7.0.0-trajectory-scenarios",
+  "model_version": "3.0.0",
+  "distribution": "complete-91-files",
+  "note": "Actual-input conditional trajectories and frozen score sensitivity. Aggregate cohort feasibility test; no calibrated future risk or causal CXL effects. No private cohort data.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "f576cb61bb9b84d44ff494f92ebd48a048ae41475d72d57018be6df7f44d959d",
+      "size": 240
+    },
+    {
+      "path": ".streamlit/config.toml",
+      "sha256": "e3374fa51ef225b4dc0cf0cc49fd784fff3638928bf20253ee85d54e4f1f2a29",
+      "size": 220
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "16122fe7dcfce129e784810298d98ff1709c1971c45a8f90fea635fc451274a9",
+      "size": 11451
+    },
+    {
+      "path": "PRIVACY.md",
+      "sha256": "96d5a885b2dc96b0c0c1d341fba90a83beac0abd3383543008a57d3999301901",
+      "size": 4203
+    },
+    {
+      "path": "README.md",
+      "sha256": "ff7b76f3fb5ee42b96125b128752665b6ecf2102106559ac902af199051a3f38",
+      "size": 4071
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "b7f55c558cf726f976a2c9c829f64413c8a0b40bc0ef6b429222fb7e93691ffe",
+      "size": 2390
+    },
+    {
+      "path": "UPDATE_INSTRUCTIONS.md",
+      "sha256": "aa9b52d06dc10c0284e334c000590b680fa8b44b473aa6f95975c6dbb729c63f",
+      "size": 1689
+    },
+    {
+      "path": "components/app.css",
+      "sha256": "ad2e4ecb7c95610a0472c5eb9a66e59064c8fa64f5967e2dd90e04bc2bec3a5d",
+      "size": 11962
+    },
+    {
+      "path": "components/app.js",
+      "sha256": "db2524520a4a46d8840e07fe4e3592eebc439ec07ee9bb4d9485c326e7201d1a",
+      "size": 20475
+    },
+    {
+      "path": "components/cornea/auto_viewer.css",
+      "sha256": "c5185d702b206f6577b97da8de17ae20eb475ecd7c82a058489af59ca7696c5c",
+      "size": 5135
+    },
+    {
+      "path": "components/cornea/auto_viewer.js",
+      "sha256": "c8a6227e8e9fcac2bff83610db9c676b7d899c6719476324f5e14ed2859522a5",
+      "size": 13056
+    },
+    {
+      "path": "components/cornea/calibration_profiles.js",
+      "sha256": "adfb9156a675ea625f3ad53f1f91260980e7b21cffc96d851a4354086f10d5bd",
+      "size": 78949
+    },
+    {
+      "path": "components/cornea/index.html",
+      "sha256": "57f12347859c0c58212e97942f3abf1700152c569981b38a67928f0fa80bfc37",
+      "size": 3967
+    },
+    {
+      "path": "components/cornea/map_texture.js",
+      "sha256": "ac03a631fafba8496e935bf3f4637a3f4156666665292b5c084d50f8a0689f90",
+      "size": 9632
+    },
+    {
+      "path": "components/cornea/mesh_renderer.js",
+      "sha256": "ddb99bbc8a7770d6a2f7edb64fff8a8b84b98a2bc9ea43f247ceee7d236a607c",
+      "size": 9136
+    },
+    {
+      "path": "components/cornea/numeric.html",
+      "sha256": "6f7d0e2ef0a137988dcf8d51b0890e53e1d8faba02b73afabc50e1b27d9781fa",
+      "size": 4448
+    },
+    {
+      "path": "components/cornea/numerical_eye.js",
+      "sha256": "3bf1395c7655bc78f2d209deca3332087289f9c7796cf9e414ad3b836ce7cbab",
+      "size": 6311
+    },
+    {
+      "path": "components/cornea/numerical_maps.js",
+      "sha256": "9c6299a311a3ec53d92f2237da6c7eb8114eefd17f4b21f040801dd499a60d63",
+      "size": 13366
+    },
+    {
+      "path": "components/cornea/reference_eye.js",
+      "sha256": "120aabaa95e49c29b6d6ddba321bdec4a8462a1109dcd9adaf4b2795cca7f798",
+      "size": 14527
+    },
+    {
+      "path": "components/cornea/report_comparison.js",
+      "sha256": "069cdfceac5a18ead206b53c9a47ea80098b94c7a88b2e9bd420d045ee19b096",
+      "size": 4593
+    },
+    {
+      "path": "components/cornea/review_markers.js",
+      "sha256": "952c9516c19d2d3b29cb92d40edd317b93d8bdf3ae9b596fce471305fed3bb74",
+      "size": 3206
+    },
+    {
+      "path": "components/cornea/surface_schema.js",
+      "sha256": "8e52a6fe95f91ecd4bb3f47315f3cde2c8ccd810f96e45f35d043e88450a7559",
+      "size": 7450
+    },
+    {
+      "path": "components/cornea/synthetic_demo.json",
+      "sha256": "c50e65eb144851c9588cdae8f99ed7786f127f77d1e292f3ff36c14e3d6fb164",
+      "size": 143773
+    },
+    {
+      "path": "components/cornea/viewer.css",
+      "sha256": "fd6aa196f1c064a92600aa2d33d4cbb368686ed6080fe6ee7817022c46bd5414",
+      "size": 3913
+    },
+    {
+      "path": "components/cornea/viewer.js",
+      "sha256": "8f6840e5858a3c7d0c75722750f11fe26e08fd0cdde7d68ed42f89a8f07b0eaa",
+      "size": 11014
+    },
+    {
+      "path": "components/cornea/visit_comparison.js",
+      "sha256": "b984570fcb5e72bb9e2e6bfb1c46fef29881ae8083bfe156b3fe011de980c3ce",
+      "size": 5916
+    },
+    {
+      "path": "components/extractor/app.js",
+      "sha256": "481488a2e0047eb1dca55fd1f17be7c9aca59bdabfde36f9c18848df713c81d1",
+      "size": 176787
+    },
+    {
+      "path": "components/extractor/archive_integration.js",
+      "sha256": "0c0f6de799dc0fd8accf7ab785dc495c2efdf773544ab2ee71e8713fb9396a83",
+      "size": 20567
+    },
+    {
+      "path": "components/extractor/archive_reader.js",
+      "sha256": "07ebe025e2137a5329eb8d109b9860f11515846a533a6570488ec6c8ba3d6e86",
+      "size": 14598
+    },
+    {
+      "path": "components/extractor/auto_surfaces.js",
+      "sha256": "5578de884ac46713e8b6d919a4d5fbd08ceced594c1486601f1a551bc1324011",
+      "size": 3366
+    },
+    {
+      "path": "components/extractor/dicom_reports.js",
+      "sha256": "fd19e47bb0b82c44d0278e033c779e09601c57318170231fb875fbfc410224ee",
+      "size": 7996
+    },
+    {
+      "path": "components/extractor/import_repair.css",
+      "sha256": "5af138a7bbaec3ab53f9631e10d10124ec827321636763027be61b2489ab1e87",
+      "size": 1613
+    },
+    {
+      "path": "components/extractor/index.html",
+      "sha256": "99454ebaab9d58e5673c94289cd55ffd13c6bdd934344708ec58101b14205c22",
+      "size": 9303
+    },
+    {
+      "path": "components/extractor/integration.css",
+      "sha256": "6b064e69801241fa639a939befb5266f1525194672571422c2c75ffb2b24332b",
+      "size": 1099
+    },
+    {
+      "path": "components/extractor/numeric_import.js",
+      "sha256": "d1e804e36cffc8c6835f407a36d4e6797f7743029fe64b686650b1e44f54ab0c",
+      "size": 7788
+    },
+    {
+      "path": "components/extractor/report_maps.js",
+      "sha256": "d97619ec228a465548bfc2b36e8ae681364de0d65a9087d401680774e938d81c",
+      "size": 7119
+    },
+    {
+      "path": "components/extractor/review_fixes.js",
+      "sha256": "72743a6ce5073699f494e7d56fb539c5d4c2ffe9c999d29d2256672302add0e9",
+      "size": 15142
+    },
+    {
+      "path": "components/extractor/streamlit_bridge.js",
+      "sha256": "d1e533fc343d0daf5805b5760ef130531e6757e9617676253a86930a3ed3096b",
+      "size": 2681
+    },
+    {
+      "path": "components/extractor/styles.css",
+      "sha256": "b3e93705c351e68be0a59838e02b04493f3d48c372fb7c7ab95682b917d22bbf",
+      "size": 13851
+    },
+    {
+      "path": "components/extractor/vendor/JSZIP_LICENSE.txt",
+      "sha256": "566c953c6090b1218ca6217dd7359d45dde46581968586dc607d59a78af6a9c4",
+      "size": 33753
+    },
+    {
+      "path": "components/extractor/vendor/jszip-3.10.1.min.js",
+      "sha256": "acc7e41455a80765b5fd9c7ee1b8078a6d160bbbca455aeae854de65c947d59e",
+      "size": 97630
+    },
+    {
+      "path": "components/impact_table.js",
+      "sha256": "b004109bad24005f7d3fab6f7705e06d4acc0ad5d663011942dc8ca280e9015d",
+      "size": 5020
+    },
+    {
+      "path": "components/index.html",
+      "sha256": "00d0fff580e98a38da5ba2b7445d268b28fdc7f8cc1133fae55c1635e4bf786f",
+      "size": 7253
+    },
+    {
+      "path": "components/report_gallery.js",
+      "sha256": "ee12bc292dbd82e16c3390a3c905e74e82241bad7d46dbc91908e779c698efbb",
+      "size": 7401
+    },
+    {
+      "path": "components/schema.js",
+      "sha256": "b4a02aa028ba18eccca230c436950268eb50deae400e9af3d27b07620bbc1dc6",
+      "size": 6744
+    },
+    {
+      "path": "components/trajectory/cohort_data.js",
+      "sha256": "3f2b49f058c4e7bbfbb4a2da4c76cfd3524dcff15f849f1fd7ad8dcd8af145ff",
+      "size": 3533
+    },
+    {
+      "path": "components/trajectory/index.html",
+      "sha256": "de6975be04ba70639c6c53b90fd6fcffc470b93dd0861b2a355b386f7817dede",
+      "size": 8896
+    },
+    {
+      "path": "components/trajectory/model_data.js",
+      "sha256": "baf13a505bd354e02edc49c891caef55d6eab70ff78ef597a34f729357801773",
+      "size": 6827
+    },
+    {
+      "path": "components/trajectory/trajectory.css",
+      "sha256": "7d4faf302c641b5fbdad88113fad1fa8d8b5a77e684f290fa69a779406ee9658",
+      "size": 16504
+    },
+    {
+      "path": "components/trajectory/trajectory.js",
+      "sha256": "e1ae4f9e9070647834886b20700d0fb9c429c7feb5940fa82652e93333a33026",
+      "size": 11917
+    },
+    {
+      "path": "components/trajectory/trajectory_core.js",
+      "sha256": "7075564d53057f3d42a6e2b5f8efaf6097ca971f76b73699a04b5ef100bd8a03",
+      "size": 5987
+    },
+    {
+      "path": "docs/AUDIT_AND_REVIEW.md",
+      "sha256": "bc7fa05d3082b42cf493f9d5d67045b508d948b1c07a92d22368af70e0194070",
+      "size": 5183
+    },
+    {
+      "path": "docs/AUTO_DICOM_IMPORT.md",
+      "sha256": "7332b9f0b05a76fef27f0177b341280ad0c725108e7f39fd9796258a5fc0bf94",
+      "size": 561
+    },
+    {
+      "path": "docs/COMBINED_RELEASE.md",
+      "sha256": "7e83e4635b0c78a1924412aaecc436d6a38906c8930f69e5eb0a6c2506096dd2",
+      "size": 3323
+    },
+    {
+      "path": "docs/IMPORT_REPAIR.md",
+      "sha256": "82e877caf6470ba00dbfe280a93e3f99e3b2282205ffcf5c500f3da3824c91f5",
+      "size": 4608
+    },
+    {
+      "path": "docs/INPUT_RESULT_AUDIT.md",
+      "sha256": "9630db277a3d135cbf0f145a422f7a0562b67bd6429de7bd6f080b1be901f08f",
+      "size": 5658
+    },
+    {
+      "path": "docs/MAP_COMPARISON.md",
+      "sha256": "87006e8690a4e7cc4c8199d5a0a0823b6f044b7e5a370b471b50c73e5d4bebdd",
+      "size": 9392
+    },
+    {
+      "path": "docs/NUMERICAL_MAPS.md",
+      "sha256": "ed990dd14cdb36d39a28c43fb37f08810d1f4db469645836c88a489b3350da6b",
+      "size": 6632
+    },
+    {
+      "path": "docs/SIMPLE_MAPS.md",
+      "sha256": "d28b80798416adf35637ba5dd97816b307a59d205b43ee16880e9871ca0a9297",
+      "size": 5997
+    },
+    {
+      "path": "docs/SURFACE_DATA.md",
+      "sha256": "a3b1d44e720b6cd907dbc552255b214aa1ffd1c6889d82fb854c52e583102acb",
+      "size": 9937
+    },
+    {
+      "path": "docs/TEST_REPORT.md",
+      "sha256": "93cc540055ad586b61feb45c6053ab3bf41367405321cedbfed9facc490ed6d1",
+      "size": 3006
+    },
+    {
+      "path": "docs/TRAJECTORY_METHODS.md",
+      "sha256": "41488d2bc201321ca74e3d7782de25e4b70a454c100d057555d04b067d6c56f6",
+      "size": 8000
+    },
+    {
+      "path": "docs/TREATMENT_BENEFIT.md",
+      "sha256": "5f5f61bb64112121ed12f48f8ee44d691020731a20790b9c1c8a08458e65f4ee",
+      "size": 4669
+    },
+    {
+      "path": "docs/VISUAL_CHANGE.md",
+      "sha256": "9d694fcdd8894e4af38017b0257809cf24e2fcfd5c97534c6b4f63d0e6fb1fe4",
+      "size": 4779
+    },
+    {
+      "path": "kcn_dual_calculator_app.py",
+      "sha256": "70e2cef8e7089625ba7251678df04746f7e671935d9fe5d3cc161a064ad00545",
+      "size": 2033
+    },
+    {
+      "path": "models/release.json",
+      "sha256": "20bf39d30508ac79578639d28e0080f287516c64b6e5ea8e3fd18c3a19bd59eb",
+      "size": 1083
+    },
+    {
+      "path": "models/release_model_baseline.json",
+      "sha256": "1d300a50bbc7238b4dae0e29da31f40fa06cac040ad58ccf5cad4ebcc79e37f8",
+      "size": 12139
+    },
+    {
+      "path": "models/release_model_longitudinal.json",
+      "sha256": "dbe9f45ccdbfaa20b598397309fd461af970a7875a5e40def5787ec8f4e2e9a5",
+      "size": 14111
+    },
+    {
+      "path": "nkpi/__init__.py",
+      "sha256": "134cff0ed074a61629893e020a9a2fbbc8597398ff8b64db92bcf7fa785468d2",
+      "size": 42
+    },
+    {
+      "path": "nkpi/assessment.py",
+      "sha256": "acbfee0d7e25398ad494ac70a6c3a4314158beaff23ac4974be9a77c78f3b0b0",
+      "size": 9338
+    },
+    {
+      "path": "nkpi/impact_audit.py",
+      "sha256": "7b55d15b254abb232350af80cb5a0b5b1d61fef2b5e33037a7c370ce7ac948c7",
+      "size": 3604
+    },
+    {
+      "path": "nkpi/reports.py",
+      "sha256": "4678f510587461825df9ee118a6ced1f9025fe269a14e0c4576c3599f336443f",
+      "size": 4425
+    },
+    {
+      "path": "nkpi/service.py",
+      "sha256": "b93cd840371f953a0a0b3b677a9017109d12023fdad1fca4911e93866404b118",
+      "size": 3528
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "5ec2b0ad73534467297db5cd471fbbe029fdda88d768b970c1d7714efdfb844d",
+      "size": 35
+    },
+    {
+      "path": "research/README.md",
+      "sha256": "054c873c9ce6cdf9f04c3ceeabbd105b2037cb912ca51797705aadf68714da9b",
+      "size": 1313
+    },
+    {
+      "path": "research/evaluate_trajectory.py",
+      "sha256": "4e0ea0ff5de85a98589485992282290bad4df66984db61eeb1bf135f7257a3a3",
+      "size": 3448
+    },
+    {
+      "path": "research/reconstruct_source.py",
+      "sha256": "c6729108974000a35431ae4743f02bd14e88705bba66d19f9f309427b032785b",
+      "size": 8883
+    },
+    {
+      "path": "research/trajectory_feasibility.json",
+      "sha256": "07306cb00f739695c4fa1b348f2fdd9af31de9317803000a284404d8e4f22aff",
+      "size": 3936
+    },
+    {
+      "path": "tests/test_auto3d.js",
+      "sha256": "136270373183a18bdbddf66efdb5e29a12f0234edbd5aa5a1258ed90bc9688f8",
+      "size": 2787
+    },
+    {
+      "path": "tests/test_auto_import_merge.cjs",
+      "sha256": "a53e4262f95cb869aeb632d58a85a1527275e60186f549acc9320b9557e44cce",
+      "size": 4081
+    },
+    {
+      "path": "tests/test_map_changes.js",
+      "sha256": "d758d98e3872ea74f673570ffd8c78cde2e89a90fdecf76e258ae28990f38927",
+      "size": 5706
+    },
+    {
+      "path": "tests/test_map_identification.cjs",
+      "sha256": "06c77c96a00c5c443108ece986713fcc950034c1f552c9683b5144140867e6b8",
+      "size": 4941
+    },
+    {
+      "path": "tests/test_numerical_maps.cjs",
+      "sha256": "618c51b6013a84ea903bacd773f0e6868a8925c630a3dbf057ea66a21d3b9248",
+      "size": 5817
+    },
+    {
+      "path": "tests/test_report_comparison.cjs",
+      "sha256": "a7a4158e4efe701616f82c5d22dde7bb567ee3069970aadc48104fb8a2676c38",
+      "size": 5041
+    },
+    {
+      "path": "tests/test_surface.js",
+      "sha256": "9f29e527d8a220a3616bcc099d2862e503821212af8fcb6a8dcd6e4bed2d69b3",
+      "size": 3691
+    },
+    {
+      "path": "tests/test_trajectory.cjs",
+      "sha256": "531047fe182519c6e284e8ed74bf0dd948d511b9066c733882c6cae772dd822d",
+      "size": 4556
+    },
+    {
+      "path": "tests/test_trajectory_ui.cjs",
+      "sha256": "a6264ca2e1b2f8bb9f1dfdb5b3c7c32c788bfa3043ea9cd2c41845b502a97ea3",
+      "size": 5819
+    },
+    {
+      "path": "tests/test_viewer_integration.cjs",
+      "sha256": "4e88d73ebb21184d8006b638eb33876ce1f81956a587afe0f6957ea3941e02a6",
+      "size": 9880
+    },
+    {
+      "path": "tools/convert_surface_csv.py",
+      "sha256": "f4a08bd6a7878d677de22b65ab58533d9be43da00b21adeaba1dc521d93114e6",
+      "size": 10041
+    },
+    {
+      "path": "tools/verify_package.py",
+      "sha256": "2c0af89ca302c343b2cf4e99dbc2d9f80cbf6dd54423b8332e797d40c38669ed",
+      "size": 597
+    }
+  ]
+}
